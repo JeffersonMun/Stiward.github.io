@@ -1,0 +1,55 @@
+/* Fondo con imagen */
+body {
+    background-image: url('648713476ae20.jpg.webp'); /* Cambia por el nombre de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo del párrafo */
+p {
+    font-size: 1.2em;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Enlace */
+a {
+    display: block;
+    color: yellow;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Imagen de perfil */
+.perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Botón */
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+
